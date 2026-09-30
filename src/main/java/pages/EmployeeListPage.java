@@ -2,6 +2,8 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.StaleElementReferenceException;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -73,22 +75,24 @@ public class EmployeeListPage {
         input.clear();
         input.sendKeys(employeeName);
 
-        WebElement option =
-                wait.until(driver -> {
-                    List<WebElement> options =
-                            driver.findElements(autocompleteOptions);
+        wait.until(driver -> {
+            try {
+                List<WebElement> options =
+                        driver.findElements(autocompleteOptions);
 
-                    for(WebElement currentOption : options){
-                        if(currentOption.isDisplayed()
-                                && currentOption.getText().contains(employeeName)){
-                            return currentOption;
-                        }
+                for(WebElement currentOption : options){
+                    if(currentOption.isDisplayed()
+                            && currentOption.getText().contains(employeeName)){
+                        currentOption.click();
+                        return true;
                     }
+                }
 
-                    return null;
-                });
-
-        option.click();
+                return false;
+            }catch (StaleElementReferenceException e){
+                return false;
+            }
+        });
 
         WebElement button =
                 wait.until(
@@ -100,29 +104,49 @@ public class EmployeeListPage {
         button.click();
 
         wait.until(driver -> {
-            List<WebElement> rows =
-                    driver.findElements(resultRows);
+            try {
+                List<WebElement> rows =
+                        driver.findElements(resultRows);
 
-            for(WebElement row : rows){
-                if(row.getText().contains(employeeName)){
-                    return true;
+                for(WebElement row : rows){
+                    if(row.getText().contains(employeeName)){
+                        return true;
+                    }
                 }
-            }
 
-            return !driver.findElements(noRecordsFound).isEmpty();
+                return !driver.findElements(noRecordsFound).isEmpty();
+            }catch (StaleElementReferenceException e){
+                return false;
+            }
         });
     }
 
     public boolean isEmployeeDisplayed(String employeeName){
-        List<WebElement> rows =
-                webDriver.findElements(resultRows);
+        WebDriverWait wait =
+                new WebDriverWait(
+                        webDriver,
+                        Duration.ofSeconds(20)
+                );
 
-        for(WebElement row : rows){
-            if(row.getText().contains(employeeName)){
-                return true;
-            }
+        try {
+            return wait.until(driver -> {
+                try {
+                    List<WebElement> rows =
+                            driver.findElements(resultRows);
+
+                    for(WebElement row : rows){
+                        if(row.getText().contains(employeeName)){
+                            return true;
+                        }
+                    }
+
+                    return null;
+                }catch (StaleElementReferenceException e){
+                    return null;
+                }
+            });
+        }catch (TimeoutException e){
+            return false;
         }
-
-        return false;
     }
 }

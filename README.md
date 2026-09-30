@@ -283,6 +283,20 @@ Una ejecución completamente satisfactoria debe mostrar:
 - Cero pruebas omitidas.
 - Construcción exitosa.
 
+## Última validación
+
+La suite completa fue validada en Chrome y Firefox con el siguiente resultado:
+
+- Cuatro pruebas ejecutadas.
+- Cuatro pruebas aprobadas.
+- Cero fallos.
+- Cero errores.
+- Cero pruebas omitidas.
+- Construcción exitosa.
+- Tiempo total aproximado: dos minutos y veintisiete segundos.
+
+Las cuatro combinaciones mostraron OK y cerraron correctamente el navegador antes de comenzar la siguiente ejecución.
+
 ## Reportes
 
 Después de la ejecución, Maven y TestNG generan reportes dentro de la carpeta de resultados del proyecto.
@@ -303,7 +317,7 @@ Cada nueva limpieza elimina los resultados temporales anteriores antes de comenz
 
 OrangeHRM es una aplicación pública utilizada por muchas personas. Sus datos pueden cambiar o reiniciarse sin aviso.
 
-La interfaz también puede actualizar sus elementos mientras se realiza una búsqueda. Si ocurre una modificación inesperada de la página, la ejecución informa el error real y queda registrada como fallida.
+La interfaz puede actualizar sus elementos mientras se realiza una búsqueda. Para manejar ese comportamiento dinámico, la automatización vuelve a consultar las sugerencias y filas dentro de la espera explícita cuando la página reemplaza temporalmente esos elementos. Si la condición no se estabiliza dentro del tiempo permitido, la ejecución conserva el error real y queda registrada como fallida.
 
 Los nombres y usuarios generados reducen los conflictos entre ejecuciones. Los identificadores de empleado se toman directamente del archivo de datos definido para el proyecto.
 

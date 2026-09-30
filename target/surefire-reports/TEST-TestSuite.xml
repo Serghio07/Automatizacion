@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="151.366" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="143.871" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\SERGIO\AppData\Local\Temp\surefire13165793622451211545\surefirebooter-20260930181433630_3.jar C:\Users\SERGIO\AppData\Local\Temp\surefire13165793622451211545 2026-09-30T18-14-33_507-jvmRun1 surefire-20260930181433630_1tmp surefire_0-20260930181433630_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\SERGIO\AppData\Local\Temp\surefire2769408583003205689\surefirebooter-20260930183245014_3.jar C:\Users\SERGIO\AppData\Local\Temp\surefire2769408583003205689 2026-09-30T18-32-44_886-jvmRun1 surefire-20260930183245014_1tmp surefire_0-20260930183245014_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\diplomado QA\AUTIOMATIZACION\CODIGO\proyecto\proyectofinal\target\test-classes;D:\diplomado QA\AUTIOMATIZACION\CODIGO\proyecto\proyectofinal\target\classes;C:\Users\SERGIO\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.48.0\selenium-chrome-driver-4.48.0.jar;C:\Users\SERGIO\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\SERGIO\.m2\repository\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\SERGIO\.m2\repository\org\seleniumhq\selenium\selenium-api\4.48.0\selenium-api-4.48.0.jar;C:\Users\SERGIO\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.48.0\selenium-chromium-driver-4.48.0.jar;C:\Users\SERGIO\.m2\repository\org\seleniumhq\selenium\selenium-json\4.48.0\selenium-json-4.48.0.jar;C:\Users\SERGIO\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.48.0\selenium-manager-4.48.0.jar;C:\Users\SERGIO\.m2\repository\org\seleniumhq\selenium\selenium-os\4.48.0\selenium-os-4.48.0.jar;C:\Users\SERGIO\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.48.0\selenium-remote-driver-4.48.0.jar;C:\Users\SERGIO\.m2\repository\io\opentelemetry\opentelemetry-api\1.65.0\opentelemetry-api-1.65.0.jar;C:\Users\SERGIO\.m2\repository\io\opentelemetry\opentelemetry-context\1.65.0\opentelemetry-context-1.65.0.jar;C:\Users\SERGIO\.m2\repository\io\opentelemetry\opentelemetry-common\1.65.0\opentelemetry-common-1.65.0.jar;C:\Users\SERGIO\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.65.0\opentelemetry-exporter-logging-1.65.0.jar;C:\Users\SERGIO\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.65.0\opentelemetry-sdk-common-1.65.0.jar;C:\Users\SERGIO\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.65.0\opentelemetry-sdk-extension-autoconfigure-spi-1.65.0.jar;C:\Users\SERGIO\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.65.0\opentelemetry-sdk-extension-autoconfigure-1.65.0.jar;C:\Users\SERGIO\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.65.0\opentelemetry-sdk-trace-1.65.0.jar;C:\Users\SERGIO\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.65.0\opentelemetry-sdk-1.65.0.jar;C:\Users\SERGIO\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.65.0\opentelemetry-sdk-metrics-1.65.0.jar;C:\Users\SERGIO\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.65.0\opentelemetry-sdk-logs-1.65.0.jar;C:\Users\SERGIO\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.48.0\selenium-firefox-driver-4.48.0.jar;C:\Users\SERGIO\.m2\repository\org\seleniumhq\selenium\selenium-http\4.48.0\selenium-http-4.48.0.jar;C:\Users\SERGIO\.m2\repository\org\seleniumhq\selenium\selenium-support\4.48.0\selenium-support-4.48.0.jar;C:\Users\SERGIO\.m2\repository\com\google\guava\guava\33.6.0-jre\guava-33.6.0-jre.jar;C:\Users\SERGIO\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\SERGIO\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\SERGIO\.m2\repository\com\google\errorprone\error_prone_annotations\2.47.0\error_prone_annotations-2.47.0.jar;C:\Users\SERGIO\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\SERGIO\.m2\repository\net\bytebuddy\byte-buddy\1.18.11\byte-buddy-1.18.11.jar;C:\Users\SERGIO\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\SERGIO\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\SERGIO\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\SERGIO\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\SERGIO\AppData\Local\Temp\surefire13165793622451211545\surefirebooter-20260930181433630_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\SERGIO\AppData\Local\Temp\surefire2769408583003205689\surefirebooter-20260930183245014_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.2+7-58"/>
@@ -50,7 +50,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;c:\Users\SERGIO\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\SERGIO\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-23\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\php;C:\Program Files (x86)\Statgraphics\STATGRAPHICS Centurion XVI.I\;C:\Program Files\WSL\;c:\Users\SERGIO\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\SERGIO\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;c:\Users\SERGIO\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\SERGIO\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-23\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\php;C:\Program Files (x86)\Statgraphics\STATGRAPHICS Centurion XVI.I\;C:\Users\SERGIO\AppData\Local\Programs\Python\Launcher\;C:\Users\SERGIO\AppData\Local\Microsoft\WindowsApps;C:\Users\SERGIO\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\SERGIO\AppData\Roaming\npm;C:\Users\SERGIO\AppData\Local\GitHubDesktop\bin;D:\programas\flutter\bin;C:\Users\SERGIO\AppData\Local\JetBrains\Toolbox\scripts;c:\Users\SERGIO\.vscode\extensions\vscjava.vscode-java-debug-0.58.5\bundled\scripts\noConfigScripts;c:\Users\SERGIO\.vscode\extensions\vscjava.vscode-java-debug-0.58.5\bundled\scripts\noConfigScripts;D:\apache-maven-3.9.6\bin;C:\Program Files\apache-maven-3.9.12;C:\Users\SERGIO\flutter\bin;D:\Android\platform-tools;D:\Antigravity\bin;C:\Users\SERGIO\AppData\Local\Programs\Antigravity IDE\bin;D:\cursor\resources\app\bin;C:\Users\SERGIO\AppData\Local\Microsoft\WinGet\Links;c:\Users\SERGIO\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\SERGIO\.codex\tmp\arg0\codex-arg0VS6nkl;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-23\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\php;C:\Program Files (x86)\Statgraphics\STATGRAPHICS Centurion XVI.I\;C:\Program Files\WSL\;c:\Users\SERGIO\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\SERGIO\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;c:\Users\SERGIO\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\SERGIO\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-23\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\php;C:\Program Files (x86)\Statgraphics\STATGRAPHICS Centurion XVI.I\;C:\Users\SERGIO\AppData\Local\Programs\Python\Launcher\;C:\Users\SERGIO\AppData\Local\Microsoft\WindowsApps;C:\Users\SERGIO\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\SERGIO\AppData\Roaming\npm;C:\Users\SERGIO\AppData\Local\GitHubDesktop\bin;D:\programas\flutter\bin;C:\Users\SERGIO\AppData\Local\JetBrains\Toolbox\scripts;c:\Users\SERGIO\.vscode\extensions\vscjava.vscode-java-debug-0.58.5\bundled\scripts\noConfigScripts;c:\Users\SERGIO\.vscode\extensions\vscjava.vscode-java-debug-0.58.5\bundled\scripts\noConfigScripts;D:\apache-maven-3.9.6\bin;C:\Program Files\apache-maven-3.9.12;C:\Users\SERGIO\flutter\bin;D:\Android\platform-tools;D:\Antigravity\bin;C:\Users\SERGIO\AppData\Local\Programs\Antigravity IDE\bin;D:\cursor\resources\app\bin;C:\Users\SERGIO\AppData\Local\Microsoft\WinGet\Links;;c:\Users\SERGIO\.vscode\extensions\openai.chatgpt-26.917.62051-win32-x64\bin\windows-x86_64;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -58,120 +58,120 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="testCreateEmployee[SERGIO, TICONA, MAMANI, 2002, Sergiot, sergio123, Enabled](1)" classname="pim.EmployeeTests" time="21.808">
-    <system-out><![CDATA[INFO: Creando SERGIO_MUONYBD7 con username SergiotMUONYBD7 y status Enabled
-INFO: Buscando SERGIO_MUONYBD7
+  <testcase name="testCreateEmployee[SERGIO, TICONA, MAMANI, 2002, Sergiot, sergio123, Enabled](1)" classname="pim.EmployeeTests" time="23.391">
+    <system-out><![CDATA[INFO: Creando SERGIO_MUOOLCRK con username SergiotMUOOLCRK y status Enabled
+INFO: Buscando SERGIO_MUOOLCRK
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-sept 30, 2026 6:14:34 P. M. base.BaseTest setUp
+sept 30, 2026 6:32:45 P. M. base.BaseTest setUp
 INFO: Navegador seleccionado: chrome
-sept 30, 2026 6:14:35 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+sept 30, 2026 6:32:47 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 154
-sept 30, 2026 6:14:35 P. M. base.BaseTest setUp
+sept 30, 2026 6:32:47 P. M. base.BaseTest setUp
 INFO: Navegador iniciado correctamente
-sept 30, 2026 6:15:00 P. M. base.BaseTest setUp
+sept 30, 2026 6:32:55 P. M. base.BaseTest setUp
 INFO: Aplicacion abierta correctamente
-sept 30, 2026 6:15:00 P. M. pim.EmployeeTests testCreateEmployee
-INFO: Iniciando prueba para: SERGIO_MUONYBD7
-sept 30, 2026 6:15:00 P. M. pim.EmployeeTests testCreateEmployee
+sept 30, 2026 6:32:55 P. M. pim.EmployeeTests testCreateEmployee
+INFO: Iniciando prueba para: SERGIO_MUOOLCRK
+sept 30, 2026 6:32:55 P. M. pim.EmployeeTests testCreateEmployee
 INFO: Realizando login
-sept 30, 2026 6:15:03 P. M. pim.EmployeeTests testCreateEmployee
+sept 30, 2026 6:32:58 P. M. pim.EmployeeTests testCreateEmployee
 INFO: Ingresando a PIM
-sept 30, 2026 6:15:05 P. M. pim.EmployeeTests testCreateEmployee
-INFO: Creando empleado: SERGIO_MUONYBD7
-sept 30, 2026 6:15:15 P. M. pim.EmployeeTests testCreateEmployee
-INFO: Buscando empleado: SERGIO_MUONYBD7
-sept 30, 2026 6:15:22 P. M. pim.EmployeeTests testCreateEmployee
+sept 30, 2026 6:33:02 P. M. pim.EmployeeTests testCreateEmployee
+INFO: Creando empleado: SERGIO_MUOOLCRK
+sept 30, 2026 6:33:12 P. M. pim.EmployeeTests testCreateEmployee
+INFO: Buscando empleado: SERGIO_MUOOLCRK
+sept 30, 2026 6:33:18 P. M. pim.EmployeeTests testCreateEmployee
 INFO: Validando empleado en la grilla
-sept 30, 2026 6:15:22 P. M. pim.EmployeeTests testCreateEmployee
+sept 30, 2026 6:33:18 P. M. pim.EmployeeTests testCreateEmployee
 INFO: OK
 ]]></system-err>
   </testcase>
-  <testcase name="testCreateEmployee[SERGIO, TICONA, MAMANI, 2002, Sergiot, sergio123, Enabled](1)" classname="pim.EmployeeTests" time="22.313">
-    <system-out><![CDATA[INFO: Creando SERGIO_MUONZSFI con username SergiotMUONZSFI y status Enabled
-INFO: Buscando SERGIO_MUONZSFI
+  <testcase name="testCreateEmployee[SERGIO, TICONA, MAMANI, 2002, Sergiot, sergio123, Enabled](1)" classname="pim.EmployeeTests" time="34.691">
+    <system-out><![CDATA[INFO: Creando SERGIO_MUOOMOUO con username SergiotMUOOMOUO y status Enabled
+INFO: Buscando SERGIO_MUOOMOUO
 ]]></system-out>
-    <system-err><![CDATA[sept 30, 2026 6:15:55 P. M. base.BaseTest tearDown
+    <system-err><![CDATA[sept 30, 2026 6:33:49 P. M. base.BaseTest tearDown
 INFO: Cerrando navegador
-sept 30, 2026 6:15:55 P. M. base.BaseTest setUp
+sept 30, 2026 6:33:49 P. M. base.BaseTest setUp
 INFO: Navegador seleccionado: firefox
-sept 30, 2026 6:15:58 P. M. base.BaseTest setUp
+sept 30, 2026 6:33:52 P. M. base.BaseTest setUp
 INFO: Navegador iniciado correctamente
-sept 30, 2026 6:16:09 P. M. base.BaseTest setUp
+sept 30, 2026 6:33:57 P. M. base.BaseTest setUp
 INFO: Aplicacion abierta correctamente
-sept 30, 2026 6:16:09 P. M. pim.EmployeeTests testCreateEmployee
-INFO: Iniciando prueba para: SERGIO_MUONZSFI
-sept 30, 2026 6:16:09 P. M. pim.EmployeeTests testCreateEmployee
+sept 30, 2026 6:33:57 P. M. pim.EmployeeTests testCreateEmployee
+INFO: Iniciando prueba para: SERGIO_MUOOMOUO
+sept 30, 2026 6:33:57 P. M. pim.EmployeeTests testCreateEmployee
 INFO: Realizando login
-sept 30, 2026 6:16:12 P. M. pim.EmployeeTests testCreateEmployee
+sept 30, 2026 6:34:04 P. M. pim.EmployeeTests testCreateEmployee
 INFO: Ingresando a PIM
-sept 30, 2026 6:16:14 P. M. pim.EmployeeTests testCreateEmployee
-INFO: Creando empleado: SERGIO_MUONZSFI
-sept 30, 2026 6:16:25 P. M. pim.EmployeeTests testCreateEmployee
-INFO: Buscando empleado: SERGIO_MUONZSFI
-sept 30, 2026 6:16:31 P. M. pim.EmployeeTests testCreateEmployee
+sept 30, 2026 6:34:16 P. M. pim.EmployeeTests testCreateEmployee
+INFO: Creando empleado: SERGIO_MUOOMOUO
+sept 30, 2026 6:34:25 P. M. pim.EmployeeTests testCreateEmployee
+INFO: Buscando empleado: SERGIO_MUOOMOUO
+sept 30, 2026 6:34:32 P. M. pim.EmployeeTests testCreateEmployee
 INFO: Validando empleado en la grilla
-sept 30, 2026 6:16:31 P. M. pim.EmployeeTests testCreateEmployee
+sept 30, 2026 6:34:32 P. M. pim.EmployeeTests testCreateEmployee
 INFO: OK
 ]]></system-err>
   </testcase>
-  <testcase name="testCreateEmployee[DIANA, VEIZAGA, ZARATE, 2001, DianaZ, diana123, Enabled](2)" classname="pim.EmployeeTests" time="21.452">
-    <system-out><![CDATA[INFO: Creando DIANA_MUONZ0UP con username DianaZMUONZ0UP y status Enabled
-INFO: Buscando DIANA_MUONZ0UP
+  <testcase name="testCreateEmployee[DIANA, VEIZAGA, ZARATE, 2001, DianaZ, diana123, Enabled](2)" classname="pim.EmployeeTests" time="21.071">
+    <system-out><![CDATA[INFO: Creando DIANA_MUOOM21K con username DianaZMUOOM21K y status Enabled
+INFO: Buscando DIANA_MUOOM21K
 ]]></system-out>
-    <system-err><![CDATA[sept 30, 2026 6:15:22 P. M. base.BaseTest tearDown
+    <system-err><![CDATA[sept 30, 2026 6:33:18 P. M. base.BaseTest tearDown
 INFO: Cerrando navegador
-sept 30, 2026 6:15:22 P. M. base.BaseTest setUp
+sept 30, 2026 6:33:19 P. M. base.BaseTest setUp
 INFO: Navegador seleccionado: chrome
-sept 30, 2026 6:15:23 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+sept 30, 2026 6:33:19 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 154
-sept 30, 2026 6:15:23 P. M. base.BaseTest setUp
+sept 30, 2026 6:33:19 P. M. base.BaseTest setUp
 INFO: Navegador iniciado correctamente
-sept 30, 2026 6:15:33 P. M. base.BaseTest setUp
+sept 30, 2026 6:33:28 P. M. base.BaseTest setUp
 INFO: Aplicacion abierta correctamente
-sept 30, 2026 6:15:33 P. M. pim.EmployeeTests testCreateEmployee
-INFO: Iniciando prueba para: DIANA_MUONZ0UP
-sept 30, 2026 6:15:33 P. M. pim.EmployeeTests testCreateEmployee
+sept 30, 2026 6:33:28 P. M. pim.EmployeeTests testCreateEmployee
+INFO: Iniciando prueba para: DIANA_MUOOM21K
+sept 30, 2026 6:33:28 P. M. pim.EmployeeTests testCreateEmployee
 INFO: Realizando login
-sept 30, 2026 6:15:36 P. M. pim.EmployeeTests testCreateEmployee
+sept 30, 2026 6:33:30 P. M. pim.EmployeeTests testCreateEmployee
 INFO: Ingresando a PIM
-sept 30, 2026 6:15:38 P. M. pim.EmployeeTests testCreateEmployee
-INFO: Creando empleado: DIANA_MUONZ0UP
-sept 30, 2026 6:15:47 P. M. pim.EmployeeTests testCreateEmployee
-INFO: Buscando empleado: DIANA_MUONZ0UP
-sept 30, 2026 6:15:55 P. M. pim.EmployeeTests testCreateEmployee
+sept 30, 2026 6:33:33 P. M. pim.EmployeeTests testCreateEmployee
+INFO: Creando empleado: DIANA_MUOOM21K
+sept 30, 2026 6:33:42 P. M. pim.EmployeeTests testCreateEmployee
+INFO: Buscando empleado: DIANA_MUOOM21K
+sept 30, 2026 6:33:49 P. M. pim.EmployeeTests testCreateEmployee
 INFO: Validando empleado en la grilla
-sept 30, 2026 6:15:55 P. M. pim.EmployeeTests testCreateEmployee
+sept 30, 2026 6:33:49 P. M. pim.EmployeeTests testCreateEmployee
 INFO: OK
 ]]></system-err>
   </testcase>
-  <testcase name="testCreateEmployee[DIANA, VEIZAGA, ZARATE, 2001, DianaZ, diana123, Enabled](2)" classname="pim.EmployeeTests" time="22.975">
-    <system-out><![CDATA[INFO: Creando DIANA_MUOO0H2D con username DianaZMUOO0H2D y status Enabled
-INFO: Buscando DIANA_MUOO0H2D
+  <testcase name="testCreateEmployee[DIANA, VEIZAGA, ZARATE, 2001, DianaZ, diana123, Enabled](2)" classname="pim.EmployeeTests" time="21.769">
+    <system-out><![CDATA[INFO: Creando DIANA_MUOONQCA con username DianaZMUOONQCA y status Enabled
+INFO: Buscando DIANA_MUOONQCA
 ]]></system-out>
-    <system-err><![CDATA[sept 30, 2026 6:16:31 P. M. base.BaseTest tearDown
+    <system-err><![CDATA[sept 30, 2026 6:34:32 P. M. base.BaseTest tearDown
 INFO: Cerrando navegador
-sept 30, 2026 6:16:32 P. M. base.BaseTest setUp
+sept 30, 2026 6:34:33 P. M. base.BaseTest setUp
 INFO: Navegador seleccionado: firefox
-sept 30, 2026 6:16:35 P. M. base.BaseTest setUp
+sept 30, 2026 6:34:36 P. M. base.BaseTest setUp
 INFO: Navegador iniciado correctamente
-sept 30, 2026 6:16:41 P. M. base.BaseTest setUp
+sept 30, 2026 6:34:46 P. M. base.BaseTest setUp
 INFO: Aplicacion abierta correctamente
-sept 30, 2026 6:16:41 P. M. pim.EmployeeTests testCreateEmployee
-INFO: Iniciando prueba para: DIANA_MUOO0H2D
-sept 30, 2026 6:16:41 P. M. pim.EmployeeTests testCreateEmployee
+sept 30, 2026 6:34:46 P. M. pim.EmployeeTests testCreateEmployee
+INFO: Iniciando prueba para: DIANA_MUOONQCA
+sept 30, 2026 6:34:46 P. M. pim.EmployeeTests testCreateEmployee
 INFO: Realizando login
-sept 30, 2026 6:16:45 P. M. pim.EmployeeTests testCreateEmployee
+sept 30, 2026 6:34:49 P. M. pim.EmployeeTests testCreateEmployee
 INFO: Ingresando a PIM
-sept 30, 2026 6:16:47 P. M. pim.EmployeeTests testCreateEmployee
-INFO: Creando empleado: DIANA_MUOO0H2D
-sept 30, 2026 6:16:56 P. M. pim.EmployeeTests testCreateEmployee
-INFO: Buscando empleado: DIANA_MUOO0H2D
-sept 30, 2026 6:17:04 P. M. pim.EmployeeTests testCreateEmployee
+sept 30, 2026 6:34:52 P. M. pim.EmployeeTests testCreateEmployee
+INFO: Creando empleado: DIANA_MUOONQCA
+sept 30, 2026 6:35:01 P. M. pim.EmployeeTests testCreateEmployee
+INFO: Buscando empleado: DIANA_MUOONQCA
+sept 30, 2026 6:35:08 P. M. pim.EmployeeTests testCreateEmployee
 INFO: Validando empleado en la grilla
-sept 30, 2026 6:17:04 P. M. pim.EmployeeTests testCreateEmployee
+sept 30, 2026 6:35:08 P. M. pim.EmployeeTests testCreateEmployee
 INFO: OK
 ]]></system-err>
   </testcase>
