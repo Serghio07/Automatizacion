@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Proyecto Final OrangeHRM">
+
+    <test name="OrangeHRM Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="pim.EmployeeTests"/>
+        </classes>
+    </test>
+
+    <test name="OrangeHRM Firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="pim.EmployeeTests"/>
+        </classes>
+    </test>
+
+</suite>

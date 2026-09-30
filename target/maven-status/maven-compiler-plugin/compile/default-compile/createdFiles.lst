@@ -1,0 +1,5 @@
+pages\DashboardPage.class
+pages\PimPage.class
+pages\AddEmployeePage.class
+pages\LoginPage.class
+pages\EmployeeListPage.class

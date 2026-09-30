@@ -326,5 +326,6 @@ El proyecto cuenta con:
 - desplazamiento de la pantalla;
 - registro de pasos y resultados;
 - conservación de los errores reales.
-#   A u t o m a t i z a c i o n  
+#   A u t o m a t i z a c i o n 
+ 
  
