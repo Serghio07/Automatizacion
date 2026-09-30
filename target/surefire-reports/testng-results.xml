@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-30T18:32:45 GMT-04:00" name="Proyecto Final OrangeHRM" finished-at="2026-09-30T18:35:09 GMT-04:00" duration-ms="143379">
+  <suite started-at="2026-09-30T18:40:39 GMT-04:00" name="Proyecto Final OrangeHRM" finished-at="2026-09-30T18:44:12 GMT-04:00" duration-ms="213058">
     <groups>
     </groups>
-    <test started-at="2026-09-30T18:32:45 GMT-04:00" name="OrangeHRM Chrome" finished-at="2026-09-30T18:33:49 GMT-04:00" duration-ms="63758">
+    <test started-at="2026-09-30T18:40:39 GMT-04:00" name="OrangeHRM Chrome" finished-at="2026-09-30T18:42:52 GMT-04:00" duration-ms="132906">
       <class name="pim.EmployeeTests">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:pim.EmployeeTests@4f83df68]" started-at="2026-09-30T18:32:45 GMT-04:00" name="setUp" finished-at="2026-09-30T18:32:55 GMT-04:00" duration-ms="9681" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:pim.EmployeeTests@4f83df68]" started-at="2026-09-30T18:40:39 GMT-04:00" name="setUp" finished-at="2026-09-30T18:40:51 GMT-04:00" duration-ms="11951" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testCreateEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pim.EmployeeTests@4f83df68]" started-at="2026-09-30T18:32:55 GMT-04:00" name="testCreateEmployee" data-provider="employees" finished-at="2026-09-30T18:33:18 GMT-04:00" duration-ms="23391" status="PASS">
+        <test-method signature="testCreateEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pim.EmployeeTests@4f83df68]" started-at="2026-09-30T18:40:51 GMT-04:00" name="testCreateEmployee" data-provider="employees" finished-at="2026-09-30T18:41:22 GMT-04:00" duration-ms="31072" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,11 +59,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateEmployee -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:pim.EmployeeTests@4f83df68]" started-at="2026-09-30T18:33:18 GMT-04:00" name="tearDown" finished-at="2026-09-30T18:33:19 GMT-04:00" duration-ms="349" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pim.EmployeeTests@4f83df68]" started-at="2026-09-30T18:41:22 GMT-04:00" name="tearDown" finished-at="2026-09-30T18:41:22 GMT-04:00" duration-ms="206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:pim.EmployeeTests@4f83df68]" started-at="2026-09-30T18:33:19 GMT-04:00" name="setUp" finished-at="2026-09-30T18:33:28 GMT-04:00" duration-ms="9025" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:pim.EmployeeTests@4f83df68]" started-at="2026-09-30T18:41:22 GMT-04:00" name="setUp" finished-at="2026-09-30T18:42:13 GMT-04:00" duration-ms="51071" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,7 +74,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testCreateEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pim.EmployeeTests@4f83df68]" started-at="2026-09-30T18:33:28 GMT-04:00" name="testCreateEmployee" data-provider="employees" finished-at="2026-09-30T18:33:49 GMT-04:00" duration-ms="21070" status="PASS">
+        <test-method signature="testCreateEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pim.EmployeeTests@4f83df68]" started-at="2026-09-30T18:42:13 GMT-04:00" name="testCreateEmployee" data-provider="employees" finished-at="2026-09-30T18:42:51 GMT-04:00" duration-ms="38358" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -115,15 +115,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateEmployee -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:pim.EmployeeTests@4f83df68]" started-at="2026-09-30T18:33:49 GMT-04:00" name="tearDown" finished-at="2026-09-30T18:33:49 GMT-04:00" duration-ms="197" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pim.EmployeeTests@4f83df68]" started-at="2026-09-30T18:42:51 GMT-04:00" name="tearDown" finished-at="2026-09-30T18:42:52 GMT-04:00" duration-ms="206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- pim.EmployeeTests -->
     </test> <!-- OrangeHRM Chrome -->
-    <test started-at="2026-09-30T18:33:49 GMT-04:00" name="OrangeHRM Firefox" finished-at="2026-09-30T18:35:09 GMT-04:00" duration-ms="79559">
+    <test started-at="2026-09-30T18:42:52 GMT-04:00" name="OrangeHRM Firefox" finished-at="2026-09-30T18:44:12 GMT-04:00" duration-ms="80096">
       <class name="pim.EmployeeTests">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:pim.EmployeeTests@6a78afa0]" started-at="2026-09-30T18:33:49 GMT-04:00" name="setUp" finished-at="2026-09-30T18:33:57 GMT-04:00" duration-ms="8221" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:pim.EmployeeTests@6a78afa0]" started-at="2026-09-30T18:42:52 GMT-04:00" name="setUp" finished-at="2026-09-30T18:43:06 GMT-04:00" duration-ms="14084" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -134,7 +134,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testCreateEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pim.EmployeeTests@6a78afa0]" started-at="2026-09-30T18:33:57 GMT-04:00" name="testCreateEmployee" data-provider="employees" finished-at="2026-09-30T18:34:32 GMT-04:00" duration-ms="34691" status="PASS">
+        <test-method signature="testCreateEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pim.EmployeeTests@6a78afa0]" started-at="2026-09-30T18:43:06 GMT-04:00" name="testCreateEmployee" data-provider="employees" finished-at="2026-09-30T18:43:28 GMT-04:00" duration-ms="21917" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -175,11 +175,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateEmployee -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:pim.EmployeeTests@6a78afa0]" started-at="2026-09-30T18:34:32 GMT-04:00" name="tearDown" finished-at="2026-09-30T18:34:33 GMT-04:00" duration-ms="1048" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pim.EmployeeTests@6a78afa0]" started-at="2026-09-30T18:43:28 GMT-04:00" name="tearDown" finished-at="2026-09-30T18:43:29 GMT-04:00" duration-ms="924" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:pim.EmployeeTests@6a78afa0]" started-at="2026-09-30T18:34:33 GMT-04:00" name="setUp" finished-at="2026-09-30T18:34:46 GMT-04:00" duration-ms="12845" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:pim.EmployeeTests@6a78afa0]" started-at="2026-09-30T18:43:29 GMT-04:00" name="setUp" finished-at="2026-09-30T18:43:47 GMT-04:00" duration-ms="18075" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -190,7 +190,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testCreateEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pim.EmployeeTests@6a78afa0]" started-at="2026-09-30T18:34:46 GMT-04:00" name="testCreateEmployee" data-provider="employees" finished-at="2026-09-30T18:35:08 GMT-04:00" duration-ms="21770" status="PASS">
+        <test-method signature="testCreateEmployee(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pim.EmployeeTests@6a78afa0]" started-at="2026-09-30T18:43:47 GMT-04:00" name="testCreateEmployee" data-provider="employees" finished-at="2026-09-30T18:44:11 GMT-04:00" duration-ms="24321" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -231,7 +231,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateEmployee -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:pim.EmployeeTests@6a78afa0]" started-at="2026-09-30T18:35:08 GMT-04:00" name="tearDown" finished-at="2026-09-30T18:35:09 GMT-04:00" duration-ms="976" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pim.EmployeeTests@6a78afa0]" started-at="2026-09-30T18:44:11 GMT-04:00" name="tearDown" finished-at="2026-09-30T18:44:12 GMT-04:00" duration-ms="770" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
